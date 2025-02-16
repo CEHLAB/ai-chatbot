@@ -42,7 +42,7 @@ Create a .env file in the 'server' directory and add your API key for the chatbo
 
 DEEPSEEK_API_KEY='your-api-key-here'
 PORT='choose a port'
-SERVER_URL="http://localhost:'put the same portvalue you chose "
+SERVER_URL="http://localhost: PORT "
 
 4. Start the Backend Server
 
