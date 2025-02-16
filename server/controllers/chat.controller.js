@@ -5,7 +5,7 @@ dotenv.config();
 
 const openai = new OpenAI({
   baseURL: "https://api.deepseek.com",
-  apiKey: process.env.DEEPSEEK_API_KEY, // Correct API Key loading
+  apiKey: process.env.DEEPSEEK_API_KEY, 
 });
 
 export const getChatResponse = async (req, res) => {
