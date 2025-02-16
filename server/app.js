@@ -9,9 +9,9 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-    origin: 'http://localhost:5173',  // Remplace par l'URL de ton front-end
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],  // Autorise toutes les méthodes HTTP
-    credentials: true,  // Si tu as besoin de gérer les cookies
+    origin: 'http://localhost:5173', 
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],  
+    credentials: true, 
   }));
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
